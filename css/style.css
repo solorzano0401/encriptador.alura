@@ -1,0 +1,336 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: #b8c5fc;
+
+
+}
+#logo{
+    display: inline;
+    width:50%;
+    margin: 0 0% 0 25%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.head_1{
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+    width: auto;
+    background: white;
+}
+main{
+    background: #b8c5fc;
+   
+}
+.container-main{
+    width:auto;
+    height: 1000px;
+    padding-top: 10px;
+
+
+}
+.container-input{
+    display: block;
+    box-sizing: border-box;
+    width:auto;
+    height: 900;
+    margin: 0px 2.5% 20px 2.5%;
+    border: 2px inset ghostwhite;
+}
+.container-output{
+    display: block;
+    box-sizing: border-box;
+    width: auto;
+    height: 500px;
+    margin: 20px 2.5%;
+    border: 2px inset ghostwhite;
+       
+}
+#container-output-respuesta{
+    display: none;
+}
+.texto{
+    width:auto;
+    height: 70%;
+}
+.textarea{
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #b8c5fc;
+  font-size: 36px;
+  resize: none;
+}
+.textarea:focus {
+        outline: none;
+        border-color: #0d0ae0;
+        box-shadow: 0 0 10px #0d0ae0
+
+}
+.advertencia{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+#advertencia-icon{
+    padding-left: 5px;
+    height: 25px;
+    width: 25px;
+}
+.botones{
+    width: 100%;
+    height: 20%;
+}
+.boton-encriptar{
+    box-sizing: border-box;
+    width: 40%;
+    height: 50%;
+    margin: 20px 5%;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+.boton-desencriptar{
+    box-sizing: border-box;
+    float: right;
+    width: 40%;
+    height: 50%;
+    margin: 20px 5%;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    transition: 0.8s;
+}
+.boton-reiniciar{
+    box-sizing: border-box;
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin: 2px 30%;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    transition: 0.8s;
+}
+.boton-encriptar:hover{
+    background-color: #2a09e2;
+    cursor: pointer;
+}
+.boton-desencriptar:hover{   
+    background-color: white;
+    cursor: pointer;
+}
+.boton-reiniciar:hover{   
+    background-color: white;
+    cursor: pointer;
+
+}
+.boton-encriptar:active{
+    transition: none;
+    background-color: white;
+    color: blue;
+}
+.boton-desencriptar:active{
+    transition: none;
+    background-color: blue;
+    color: white;
+}
+.boton-reinicio:active{
+    transition: none;
+    background-color: blue;
+    color: white;
+
+}
+.sin_conten{
+    width:auto;
+    height: 100%;
+}  
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto-inicial{
+    text-align: center;
+    box-sizing: border-box;
+    width:auto;
+    padding: 5px 0;
+}
+.no-texto{
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.no-texto2{
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.copiar-area{
+    width: 100%;
+    height: 20%;
+}
+.copiar-boton{
+    box-sizing: border-box;
+    width: 60%;
+    height: 50%;
+    margin: 4.5% 20%;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+.copiar-boton:hover{
+    background-color: #2a09e2;
+    cursor: pointer;
+}
+.copiar-boton:active{
+    transition: none;
+    background-color: white;
+    color: blue;
+}
+.pie{
+    width:auto;
+    height: 0px;
+    background-color: black;
+    text-align: center;
+}
+.pie-texto{
+    box-sizing: border-box;
+    padding-top: 25px;
+    color: violet;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.pie-imagenes{
+    margin-top: 15px;
+    padding: 0 10px;
+}
+footer div div a{
+    padding:0 20px;
+}
+@media screen and (min-width: 768px) {
+    .titulo-header{
+        display: inline;
+        position: absolute;
+        width: 30%;
+        margin: 10% 12%;
+        font-size: 40px;
+        font-weight: 700;
+        color: aliceblue;
+    }
+    .container-main{
+        width:auto;
+        height: 750px;
+        margin: 0 auto;
+        padding-top:0;
+    }
+    .container-input{
+        display: inline;
+        float: left;
+        width: 45%;
+        height: 600px;
+        margin: 20px 2.5%;
+    }
+    .container-output{
+        display: inline;
+        float:right;
+        width: 45%;
+        height: 600px;
+        margin: 20px 2.5%;
+    }
+    .textarea{
+        font-size: 30px;
+    }
+    .pie-texto{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 913px) {
+    .titulo-header{
+        display: inline;
+        position: absolute;
+        width: 30%;
+        margin: 10% 12%;
+        font-size: 40px;
+        font-weight: 700;
+        color: aliceblue;
+    }
+    .container-main{
+        width:100%;
+        height: 500px;
+        margin: 0 auto;
+        padding-top:0;
+    }
+    .container-input{
+        display: inline;
+        float: left;
+        width: 45%;
+        height: 400px;
+        margin: 20px 2.5%;
+    }
+    .container-output{
+        display: inline;
+        float: right;
+        width: 45%;
+        height: 400px;
+        margin: 20px 2.5%;
+    }
+    .textarea{
+        font-size: 20px;
+    }
+    .boton-encriptar{
+        font-size: 16px;
+    }
+    .boton-desencriptar{
+        font-size: 16px;
+    }
+    .no-texto-titulo{
+        font-size: 30px;
+    }
+    .no-texto-subtitulo{
+        font-size: 15px;
+    }
+    .pie{
+        width: 100%;
+        height: 120px;
+        background-color: black;
+        text-align: center;
+    }
+    .pie-texto{
+        box-sizing: border-box;
+        padding-top: 5px;
+        color: violet;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
