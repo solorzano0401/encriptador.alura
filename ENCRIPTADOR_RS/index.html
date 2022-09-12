@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Encriptador</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="head_1">
+            <img src="img/LOGO3.png" id="logo">
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="container-input">
+                <div class="texto">
+                    <textarea class="textarea" wrap="on"  cols="20" rows="10" placeholder="Ingrese el texto aquí" id="input"></textarea>
+                </div>
+                <div class="advertencia"><img src="img/alert3.png" id="advertencia-icon"> Permitido solo letras minúsculas.</div>
+                <div class="botones">
+                    <button class="boton-encriptar" value="encriptar" id="encriptar" onclick="encriptarTexto()">Encriptar</button> 
+                    <button class="boton-desencriptar" value="desencriptar" id="desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="container-output">
+                <div id="sin_contenido">
+                    <img src="img/muneco.png" id="muneco" class="center">
+
+                    <div class="texto-inicial">
+                        <div class="no-texto">Ningún mensaje encontrado</div>
+                        <div class="no-texto2">Ingresa el texto en el área correspondiente para encriptar o desencriptar.</div>
+                    </div>
+                </div>
+                <div id="container-output-respuesta">
+                    <div class="texto">
+                        <textarea id="output" class="textarea"  placeholder="Resultado"></textarea>
+                    </div>
+                    <div class="copiar-area">
+                        <button class="copiar-boton" value="copiar" onclick="copiar()">Copiar</button>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
